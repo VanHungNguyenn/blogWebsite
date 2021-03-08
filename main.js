@@ -12,3 +12,13 @@ var msnry = new Masonry(grid, {
     itemSelector: '.grid-item',
     columnWidth: 20
 });
+
+//swiper
+new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 5,
+    autoplay: {
+        delay: 3000
+    }
+});
