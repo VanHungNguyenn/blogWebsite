@@ -177,6 +177,10 @@ a {
     border-radius: 99px;
 }
 
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 
 /* section styling */
 
@@ -341,6 +345,16 @@ a {
 
 
 /* sidebar  */
+
+
+/* sticky  */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
 
 
 /* Media query  */
